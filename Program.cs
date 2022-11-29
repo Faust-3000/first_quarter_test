@@ -4,7 +4,7 @@ string[] array2 = new string[array1.Length];
 SecondArrayWithIF(array1, array2);
 PrintArray(array2);
 
-int SecondArrayWithIF(string[]) array1, string[] array2)
+void SecondArrayWithIF(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -17,7 +17,7 @@ int SecondArrayWithIF(string[]) array1, string[] array2)
     }
 }
 
-int PrintArray(string[] array)
+void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
