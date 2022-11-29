@@ -1,7 +1,16 @@
-﻿string[] array1 = new string[5] {"123", "23", "hello", "world", "res"};
+﻿string[] array1 = new string[5] {"12333", "23", "hello", "world", "res"};
 string[] array2 = new string[array1.Length];
 
+Console.WriteLine($"Заданный вами массив: {array1[0]} ");
+Console.WriteLine($"Заданный вами массив: {array1[1]} ");
+Console.WriteLine($"Заданный вами массив: {array1[2]} ");
+Console.WriteLine($"Заданный вами массив: {array1[3]} ");
+Console.WriteLine($"Заданный вами массив: {array1[4]} ");
+
 SecondArrayWithIF(array1, array2);
+
+Console.WriteLine($"Результат соответсвющий требованиям: ");
+
 PrintArray(array2);
 
 void SecondArrayWithIF(string[] array1, string[] array2)
